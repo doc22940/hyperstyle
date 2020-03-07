@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>hYpErStYlE</title>
+<meta name="viewport" content="width=device-width,initial-scale=0">
+<link rel="icon" type="image/png" href="https://avatars1.githubusercontent.com/u/14019455?s=460&amp;v=4">
+<link href="https://fonts.googleapis.com/css?family=Seymour+One&display=swap" rel="stylesheet">
+<style>
+body{
+background-color:purple;
+font-size:140px;	
+background-Image:url(https://i.imgur.com/TvrcVXm.gif);
+font-family: 'Seymour One', sans-serif;
+height: 100%;
+margin: 0;
+}
+img{
+width:200px;
+height:200px; 
+}
+a{
+text-shadow:-2px 0 white,0 2px white,2px 0 white,0 -2px white;
+text-decoration:none;
+display:flex; 
+opacity:0.8;
+}
+a:hover{
+text-decoration:underline;
+font-weight:bold;
+}
+::-webkit-scrollbar{
+width:40px;
+}
+::-webkit-scrollbar-thumb{
+background:url(https://avatars1.githubusercontent.com/u/14019455?s=460&v=4);
+background-size: 50px;
+}
+</style>
+</head>
+<body>
+<a style="background-color:brown;color:gray" href="https://jedzoka.github.io"><img src="https://avatars1.githubusercontent.com/u/14019455?s=460&amp;v=4">HenHenGo</a>
+<a style="background-color:#157b7f;color:#fc4400" href="https://lineageos.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/LineageOS_Logo.svg/240px-LineageOS_Logo.svg.png">LineageOS</a>
+<a style="background-color:#0a0200;color:#ffc107" href="https://invidio.us/channel/UCR9sFzaG9Ia_kXJhfxtFMBA"><img src="https://invidio.us/ggpht/a/AATXAJxL3j2rRT9qfx-HG1hKB2Q3JTGnHsOh0hRxiw=s100-c-k-c0xffffffff-no-rj-mo">♪sheep</a>
+<a style="background-color:green;color:violet" href="https://glitch.com/@jedzoka"><img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-night.svg">Glitch</a>
+<script>
+var q=0;
+var p=["HenHenGo","LineageOS","♪sheep","Glitch"];
+var a=document.getElementsByTagName("a");
+var l=document.getElementsByTagName("link")[0];
+var k=document.getElementsByTagName("img");
+function c(){
+document.title=p[q];
+document.body.style.backgroundColor=a[q].style.backgroundColor;
+l.href=k[q].src;
+q=(q+1)%a.length;
+}setInterval(c,1000);
+</script>
+</body>
+</html>
